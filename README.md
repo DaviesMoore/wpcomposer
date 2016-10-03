@@ -7,6 +7,7 @@ You will need to have composer installed on your system to get started with this
 
 1. Clone repository
 2. Run `composer install` from the project root directory
-3. Point your web server at ./public
+3. Duplicate local-config.sample.php as local-config.php and edit to match your environment config
+4. Point your web server at ./public
 
 If you need to update wordpress or plugins, run `composer update`
